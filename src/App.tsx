@@ -16,7 +16,7 @@ const router = createBrowserRouter([
 
 export default function App() {
   return (
-    <main className='max-w-[90rem] mx-auto px-6 py-4'>
+    <main className='max-w-[72.5rem] mx-auto px-6 py-4'>
       <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
         <RouterProvider router={router} />
       </ThemeProvider>

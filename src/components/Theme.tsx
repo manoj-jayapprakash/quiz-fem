@@ -24,8 +24,8 @@ export const Theme = ({ title }: { title?: React.ReactNode }) => {
   };
 
   return (
-    <header className='flex items-center justify-between'>
-      {title ? <h1>{title}</h1> : <></>}
+    <header className='flex items-center justify-between md:mx-16 md:my-12 xl:mx-0'>
+      {title ? <h1 className='capitalize'>{title}</h1> : <></>}
       <div className='ml-auto flex items-center justify-between gap-2'>
         <img src={sunIcon} alt='sun icon' className='w-4 md:w-6' />
         <Switch className='' onClick={handleTheme} />
